@@ -11,4 +11,8 @@ public class Home {
 
     public static final Target INFORMACION_CORPORATIVA = Target.the("Informacion Corporativa")
             .locatedBy("//*[@id='serv']");
+
+    public static final Target PROVEEDORES = Target.the("Proveedores")
+            .locatedBy("//*[@id='menu-sup']/li[4]/ul/div/div/div[1]/div/div[2]/div[2]/div/a");
+
 }

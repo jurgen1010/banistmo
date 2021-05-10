@@ -1,5 +1,6 @@
 package co.com.certificacion.stepdefinitions;
 
+import co.com.certificacion.tasks.IngresarAProveedores;
 import co.com.certificacion.tasks.IngresarIAInformacionCorporativa;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Dado;
@@ -16,8 +17,8 @@ public class TratamientoDatosProveedorStepDefinition {
 
 
     @Cuando("^Ingreso al menu proveedores$")
-    public void ingresoAlMenuProveedores() throws Exception {
-
+    public void ingresoAlMenuProveedores()  {
+        theActorInTheSpotlight().attemptsTo(IngresarAProveedores.conClick());
     }
 
     @Cuando("^Consulto el archivo de politicas de tratemiento y proteccion de datos personales de proveedores$")
