@@ -1,124 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Consultar politicas de tratemiento y proteccion de datos personales de proveedores" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-05-10T15:18:03" hostname="LAPTOP-H41EU6T9" time="69.062">
+<testsuite name="Consultar politicas de tratemiento y proteccion de datos personales de proveedores" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-05-10T15:53:27" hostname="LAPTOP-H41EU6T9" time="0.019">
   <properties/>
-  <testcase name="Consulta exitosa del archivo politicas de tratemiento y proteccion de datos personales de proveedores." classname="Consultar politicas de tratemiento y proteccion de datos personales de proveedores" time="69.062">
-    <failure message="net.serenitybdd.core.exceptions.SerenityManagedException: net.serenitybdd.screenplay.targets.TargetResolver.find([Lorg/openqa/selenium/By;)Lnet/serenitybdd/core/pages/WebElementFacade;" type="net.serenitybdd.core.exceptions.SerenityManagedException">net.serenitybdd.core.exceptions.SerenityManagedException: net.serenitybdd.screenplay.targets.TargetResolver.find([Lorg/openqa/selenium/By;)Lnet/serenitybdd/core/pages/WebElementFacade;
-	at net.serenitybdd.screenplay.targets.ByTarget.resolveFor(ByTarget.java:21)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.CGLIB$performAs$0(&lt;generated&gt;)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d$$FastClassByCGLIB$$eb009f51.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
-	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.performAs(&lt;generated&gt;)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at co.com.certificacion.tasks.IngresarIAInformacionCorporativa.performAs(IngresarIAInformacionCorporativa.java:16)
-	at co.com.certificacion.tasks.IngresarIAInformacionCorporativa$$EnhancerByCGLIB$$54291c14.CGLIB$performAs$0(&lt;generated&gt;)
-	at co.com.certificacion.tasks.IngresarIAInformacionCorporativa$$EnhancerByCGLIB$$54291c14$$FastClassByCGLIB$$193a7ed1.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:460)
-	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:445)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:420)
-	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:175)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:162)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
-	at co.com.certificacion.tasks.IngresarIAInformacionCorporativa$$EnhancerByCGLIB$$54291c14.performAs(&lt;generated&gt;)
-	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
-	at co.com.certificacion.stepdefinitions.TratamientoDatosProveedorStepDefinition.queElProveedorSeEncuentraDentroDeInformacionCorporativaDelPortalWeb(TratamientoDatosProveedorStepDefinition.java:14)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at cucumber.runtime.Utils$1.call(Utils.java:31)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:25)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
-	at cucumber.api.TestStep.executeStep(TestStep.java:102)
-	at cucumber.api.TestStep.run(TestStep.java:83)
-	at cucumber.api.TestCase.run(TestCase.java:58)
-	at cucumber.runner.Runner.runPickle(Runner.java:80)
-	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
-	at java.lang.Thread.run(Thread.java:748)
-</failure>
+  <testcase name="Consulta exitosa del archivo politicas de tratemiento y proteccion de datos personales de proveedores." classname="Consultar politicas de tratemiento y proteccion de datos personales de proveedores" time="0.019">
+    <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[may 10, 2021 10:18:04 AM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized--incognito, goog:chromeOptions: {args: [--start-maximized, --incognito], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 44507
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-may 10, 2021 10:18:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFORMACIÓN: Detected dialect: W3C
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
 
-TEST FAILED WITH ERROR: Consulta exitosa del archivo politicas de tratemiento y proteccion de datos personales de proveedores.
----------------------------------------------------------------------
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Proveedor bancolombia clicks on Acerca de nosotros
-[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - net.serenitybdd.screenplay.targets.TargetResolver.find([Lorg/openqa/selenium/By;)Lnet/serenitybdd/core/pages/WebElementFacade;
+TEST PENDING: Consulta exitosa del archivo politicas de tratemiento y proteccion de datos personales de proveedores.
+---------------------------------------------------------------------------------
 ]]></system-err>
 </testsuite>

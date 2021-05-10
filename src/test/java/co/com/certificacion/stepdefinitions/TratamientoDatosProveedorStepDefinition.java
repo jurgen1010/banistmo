@@ -26,8 +26,8 @@ public class TratamientoDatosProveedorStepDefinition {
 
     }
 
-    @Entonces("^Visualizo en una nueva ventana el archivo de tarifas$")
-    public void visualizoEnUnaNuevaVentanaElArchivoDeTarifas()  {
+    @Entonces("^Visualizo en una nueva ventana el archivo de tratemiento y proteccion de datos personales de proveedores$")
+    public void visualizoEnUnaNuevaVentanaElArchivoDeTratemientoYProteccionDeDatosPersonalesDeProveedores()  {
 
     }
 
