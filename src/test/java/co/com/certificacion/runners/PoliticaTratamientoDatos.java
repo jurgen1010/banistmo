@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/PoliticaTratamientoDatos.feature",
-        //glue = "co.com.certificacion.stepdefinitions",
+        glue = "co.com.certificacion.stepdefinitions",
         snippets = SnippetType.CAMELCASE
 )
 public class PoliticaTratamientoDatos {
