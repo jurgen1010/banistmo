@@ -1,0 +1,6 @@
+co/com/certificacion/runners/PoliticaTratamientoDatos.java
+ co.com.certificacion.runners.PoliticaTratamientoDatos
+co/com/certificacion/stepdefinitions/SetUp.java
+ co.com.certificacion.stepdefinitions.SetUp
+co/com/certificacion/stepdefinitions/TratamientoDatosProveedorStepDefinition.java
+ co.com.certificacion.stepdefinitions.TratamientoDatosProveedorStepDefinition
